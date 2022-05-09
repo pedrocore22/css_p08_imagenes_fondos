@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    background: url('../img/paris-g55a76c75b_1920\ \(1\).jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    font-size: 44px;
+    text-align: center;
+    padding-top: 140px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.row {
+    padding: 20px;
+}
+
+.row.parallax {
+    padding: 80px 60px;
+    background: url('../img/road-g4494a0976_1920\ \(1\).jpg');
+    background-position: center;
+    background-size: cover;
+    /* Para añadir efecto parallax usar la siguiente propiedad */
+    background-attachment: fixed;
+}
+
+.row.parallax p {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;  
+}
